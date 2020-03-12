@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+//https://tryphp.w3schools.com/showphp.php?filename=demo_form_validation_complete
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Currency Converter</title>
+    </head>
+    <body>
+        <form action="Currency.php" method="post">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount"><br>
+            <p>From:</p>
+            <fieldset id="from">
+                <input type="radio" value="cad" name="from" id="cad">
+                <label for ="cad"><img src="chinese_flag.png" width=16 height=12>Canadian Dollar</label><br>
+                <input type="radio" value="usd" name="from" id="usd">
+                <label for ="usd"><img src="chinese_flag.png" width=16 height=12>US Dollar</label><br>
+                <input type="radio" value="euro" name="from" id="euro">
+                <label for ="euro"><img src="chinese_flag.png" width=16 height=12>EURO</label><br>
+                <input type="radio" value="bp" name="from" id="bp">
+                <label for ="bp"><img src="chinese_flag.png" width=16 height=12>British Pound</label><br>
+                <input type="radio" value="rmb" name="from" id="rmb">
+                <label for ="rmb"><img src="chinese_flag.png" width=16 height=12>Chinese Yuan</label><br>
+            </fieldset>
+            <p>To:</p>
+            <filedset id="to">
+                <input type="radio" value="cad" name="to" id="cad">
+                <label for ="cad"><img src="chinese_flag.png" width=16 height=12>Canadian Dollar</label><br>
+                <input type="radio" value="usd" name="to" id="usd">
+                <label for ="usd"><img src="chinese_flag.png" width=16 height=12>US Dollar</label><br>
+                <input type="radio" value="euro" name="to" id="euro">
+                <label for ="euro"><img src="chinese_flag.png" width=16 height=12>EURO</label><br>
+                <input type="radio" value="bp" name="to" id="bp">
+                <label for ="bp"><img src="chinese_flag.png" width=16 height=12>British Pound</label><br>
+                <input type="radio" value="rmb" name="to" id="rmb">
+                <label for ="rmb"><img src="chinese_flag.png" width=16 height=12>Chinese Yuan</label><br>
+            </filedset><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
